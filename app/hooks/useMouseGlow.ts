@@ -12,7 +12,7 @@ export default function useMouseGlow() {
       rafId = requestAnimationFrame(() => {
         setPosition({
           x: e.clientX,
-          y: e.clientY,
+          y: e.clientY + window.scrollY,
         });
       });
     };

@@ -1,18 +1,24 @@
 import React from "react";
 import { HeaderTabs } from "../data/tabs/siderbar-data";
+import About from "../sections/About";
+import Experience from "../sections/Experience";
 
 export default function AnchorPanel() {
   return (
     <div className="pt-24 lg:w-[52%] lg:py-24">
-      {HeaderTabs.map((section, index) => (
-        <div key={index} id={section.href}>
-          {section.description && section.description.split("\n\n").map((paragraph, i) => (
-            <p key={i} className="text-slate-400 leading-relaxed mb-4">
-              {paragraph}
-            </p>
-          ))}
-        </div>
-      ))}
+      <div className="flex flex-col gap-30">
+        {HeaderTabs.map((section, index) => {
+          switch (section.type) {
+            case "about":
+              return <About key={index} section={section} />;
+            case "experience":
+              return <Experience key={index} section={section} />;
+
+            default:
+              return null;
+          }
+        })}
+      </div>
     </div>
   );
 }
