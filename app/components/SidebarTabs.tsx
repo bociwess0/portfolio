@@ -12,7 +12,7 @@ export default function SidebarTabs({ headerTabs }: Props) {
         <a
           key={index}
           className="group flex items-center gap-4 text-gray-400 uppercase text-sm font-medium"
-          href="#"
+          href={item.href}
         >
           <span
             className="block h-px w-8 bg-slate-400 

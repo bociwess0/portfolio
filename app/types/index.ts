@@ -1,5 +1,7 @@
 export interface HeaderTab {
-  name: string
+  name: string,
+  href: string,
+  description?: string
 }
 
 export type SocialName = "github" | "linkedin" | "mail";

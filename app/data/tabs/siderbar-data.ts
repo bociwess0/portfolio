@@ -1,9 +1,10 @@
 import { HeaderTab, Social } from "@/app/types";
+import { aboutMeText } from "../textual/plain-text";
 
 export const HeaderTabs: HeaderTab[] = [
-    { name: "About"},
-    { name: "Experience"},
-    { name: "Projects"},
+    { name: "About", href: "#about", description: aboutMeText},
+    { name: "Experience", href: "#experience"},
+    { name: "Projects", href: "#projects"},
 ]
 
 export const socialLinks: Social[] = [
