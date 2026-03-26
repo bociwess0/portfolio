@@ -24,7 +24,7 @@ export default function Socials() {
             href={socialLink.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-teal-400 hover:-translate-y-1 transition"
+            className="hover:text-teal-400 transition"
           >
             <Icon />
           </a>)
