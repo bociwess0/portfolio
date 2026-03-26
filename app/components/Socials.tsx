@@ -3,11 +3,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { socialLinks } from "../data/tabs/siderbar-data";
 import { Social } from "../types";
+import { GrDocumentText } from "react-icons/gr";
 
 const iconMap = {
   github: FaGithub,
   linkedin: FaLinkedin,
   mail: SiGmail,
+  resume: GrDocumentText,
 };
 
 export default function Socials() {

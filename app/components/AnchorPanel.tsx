@@ -2,6 +2,7 @@ import React from "react";
 import { HeaderTabs } from "../data/tabs/siderbar-data";
 import About from "../sections/About";
 import Experience from "../sections/Experience";
+import Projects from "../sections/Projects";
 
 export default function AnchorPanel() {
   return (
@@ -13,6 +14,8 @@ export default function AnchorPanel() {
               return <About key={index} section={section} />;
             case "experience":
               return <Experience key={index} section={section} />;
+            case "projects":
+              return <Projects key={index} section={section} />;
 
             default:
               return null;
