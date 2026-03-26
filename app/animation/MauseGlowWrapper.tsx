@@ -14,7 +14,7 @@ export default function MouseGlowWrapper({
     <div
       className="min-h-screen bg-[#0a192f]"
       style={{
-        background: `radial-gradient(600px at ${x}px ${y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
+        background: `radial-gradient(600px at ${x}px ${y}px, rgba(29, 78, 216, 0.002), transparent 90%)`,
       }}
     >
       {children}

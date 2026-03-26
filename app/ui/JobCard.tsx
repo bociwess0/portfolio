@@ -3,11 +3,11 @@ import { Job } from "../types";
 
 export default function JobCard({ job }: { job: Job }) {
   return (
-    <div className="flex gap-3">
+    <div className="flex gap-3 p-3">
       <div className="text-slate-400 font-medium text-xs leading-relaxed uppercase flex-[0_0_25%] mt-1">
         {job.duration}
       </div>
-      <div className="flex flex-col gap-3 flex-[0_0_75%]">
+      <div className="flex flex-col gap-3 flex-[0_0_77%]">
         <div className="text-white font-semibold text-lg">
           {job.position} · {job.company}
         </div>
