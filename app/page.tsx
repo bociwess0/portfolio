@@ -16,7 +16,7 @@ export default function Home() {
     >
       <div className="mx-auto min-h-screen max-w-7xl px-6 py-12 md:px-12 md:py-16 lg:py-0">
         <main className="">
-          <div className="flex justify-between">
+          <div className="flex max-sm:flex-col">
             <Sidebar />
             <AnchorPanel />
           </div>

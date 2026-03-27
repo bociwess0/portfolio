@@ -7,7 +7,7 @@ export default function ProjectCard({ project }: { project: Project }) {
   return (
     <a
       href={project.link}
-      className="group flex gap-4 rounded-md p-4 
+      className="group flex gap-4 rounded-md lg:p-4 max-sm:flex-col
     transition-all duration-300 ease-in-out
     
     hover:bg-slate-800/40 
@@ -25,7 +25,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           height={150}
           alt={project.title}
           priority
-          className="rounded-sm"
+          className="rounded-sm max-sm:w-180"
         />
       </div>
       <div className="flex flex-col gap-3 flex-[0_0_75%]">

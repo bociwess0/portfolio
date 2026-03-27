@@ -12,7 +12,7 @@ export default function SidebarTabs({ headerTabs }: Props) {
   const active = useActiveSection();
 
   return (
-    <div className="flex flex-col gap-5 mt-15">
+    <div className="hidden lg:flex flex-col gap-5 mt-15">
       {headerTabs.map((item: HeaderTab, index) => {
         const isActive = active === item.type;
 

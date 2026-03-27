@@ -14,7 +14,7 @@ const iconMap = {
 
 export default function Socials() {
   return (
-    <div className="flex gap-5 text-slate-400 text-xl">
+    <div className="flex gap-5 text-slate-400 text-xl mt-10 lg:mt-auto">
         {socialLinks.map((socialLink: Social, index) => {
             const Icon = iconMap[socialLink.name];
 

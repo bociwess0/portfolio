@@ -24,6 +24,7 @@ export function formatText(text: string) {
 export default function About({ section }: Props) {
   return (
     <section id={section.type}>
+      <div className="uppercase font-semibold mb-5 lg:hidden">{section.name}</div>
       {section.description &&
         section.description.split("\n\n").map((paragraph, i) => (
           <p key={i} className="text-slate-400 leading-relaxed mb-4">
