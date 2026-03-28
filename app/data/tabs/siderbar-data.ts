@@ -48,7 +48,7 @@ export const allProjects: Project[] = [
     title: "Car Auction Platform",
     description: `Delivered scalable Car Auction Platform using Next.js, .NET Framework, RabbitMQ, and dual-database architecture (Postgres &
                         Mongo) for seamless auction listing and real-time bid synchronization across services.`,
-    image: "/CarAuctionPlatform.png",
+    image: "/CarAuctionPlatform.jpeg",
     link: "https://github.com/bociwess0/CarAuctionPlatform",
     technologies: [
       "Next.js",
@@ -67,7 +67,7 @@ export const allProjects: Project[] = [
   {
     title: "Clothing Store",
     description: `Building a scalable full-stack e-commerce application with Next.js, TypeScript, Prisma, and PostgreSQL, including authentication, payments (Stripe/PayPal), and admin dashboard features. (In progress...)`,
-    image: "/ClothingStore.png",
+    image: "/ClothingStore.jpeg",
     link: "https://clothing-store-sable-tau.vercel.app/",
     technologies: [
       "Next.js v15",
@@ -87,7 +87,7 @@ export const allProjects: Project[] = [
     title: "ETech Web Shop",
     description: `Built robust ETech Web Shop e-commerce platform for gaming equipment using React, TypeScript, and .NET Framework,
                 supporting end-to-end user interaction including cart, login, and product browsing.`,
-    image: "/ETechWebShop.png",
+    image: "/ETechWebShop.jpeg",
     link: "https://github.com/bociwess0/ETechWebShop",
     technologies: [
       "React.js",
@@ -103,7 +103,7 @@ export const allProjects: Project[] = [
     title: "Mobile Store App",
     description: `Developed a dynamic Mobile Store App in React Native, integrating login authentication, database connectivity, and in-app mail
         verification for enhanced mobile shopping experience.`,
-    image: "/MobileStoreApp.png",
+    image: "/MobileStoreApp.jpeg",
     link: "https://github.com/bociwess0/MobileStoreApp",
     technologies: ["React Native", "Javascript", "Expo CLI"],
   },
