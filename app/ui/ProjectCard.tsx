@@ -18,16 +18,17 @@ export default function ProjectCard({ project }: { project: Project }) {
     hover:border-slate-700/50"
       target="_blank"
     >
-      <div className="text-slate-400 font-medium text-xs leading-relaxed uppercase flex-[0_0_25%] mt-1">
+      <div className="flex-[0_0_25%] mt-1">
         <Image
           src={project.image}
-          width={150}
-          height={150}
+          width={300}
+          height={200}
+          sizes="(max-width: 768px) 100vw, 25vw"
           alt={project.title}
-          priority
-          className="rounded-sm max-sm:w-180"
+          className="rounded-sm w-full h-auto"
         />
       </div>
+      
       <div className="flex flex-col gap-3 flex-[0_0_75%]">
         <div className="text-white font-semibold text-lg flex gap-2 items-center">
           <span>{project.title}</span>
