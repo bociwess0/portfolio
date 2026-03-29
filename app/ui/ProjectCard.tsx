@@ -7,7 +7,7 @@ export default function ProjectCard({ project }: { project: Project }) {
   return (
     <a
       href={project.link}
-      className="group flex gap-4 rounded-md lg:p-4 max-sm:flex-col
+      className="group flex gap-4 rounded-md lg:p-4 max-sm:flex-col max-sm:p-3 max-sm:-m-3
     transition-all duration-300 ease-in-out
     
     hover:bg-slate-800/40 
