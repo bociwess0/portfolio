@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ProfileImageCard() {
   return (
-    <div className="hidden lg:block relative w-45 h-45 mb-6">
+    <div className="hidden sm:block relative w-45 h-45 mb-6">
       <div className="absolute inset-0 rounded-full bg-[#163d79] blur-xl opacity-30"></div>
 
       <div className="absolute inset-0 rounded-full border-2 border-[#577eb8]"></div>
