@@ -4,6 +4,7 @@ import "./globals.css";
 import MouseGlowWrapper from "./animation/MauseGlowWrapper";
 import { siteMetadata } from "./lib/metadata/meta-data";
 
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
