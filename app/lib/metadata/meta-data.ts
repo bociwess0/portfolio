@@ -9,7 +9,7 @@ export const siteMetadata: Metadata = {
     title: "Bogdan Djordjevic Portfolio",
     description:
       "Building scalable, full-stack web applications with focus on performance and user experience.",
-    url: "https://bogdan-djordjevic-portfolio.vercel.app",
+    url: "https://tvoj-sajt.vercel.app",
     siteName: "Bogdan Portfolio",
     images: [
       {
