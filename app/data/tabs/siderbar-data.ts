@@ -84,6 +84,23 @@ export const allProjects: Project[] = [
     ],
   },
   {
+    title: "Places App",
+    description: `Building a full-stack travel platform where users can create, manage, and share places they have visited, explore destinations from other users, and securely manage their own content using React, Redux, TypeScript, Node.js, and MongoDB. (In progress...)`,
+    image: "/Places.png",
+    link: "https://places-app-nu.vercel.app",
+    technologies: [
+      "React",
+      "Redux Toolkit",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+    ],
+  },
+  {
     title: "ETech Web Shop",
     description: `Built robust ETech Web Shop e-commerce platform for gaming equipment using React, TypeScript, and .NET Framework,
                 supporting end-to-end user interaction including cart, login, and product browsing.`,

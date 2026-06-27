@@ -10,7 +10,7 @@ Over the past few years, I’ve worked in **fast-paced environments, developing 
   I’ve helped improve user experience and contribute to more efficient digital products.
 
   My main stack includes **React, Next.js, TypeScript, and Tailwind CSS**, along with 
-  experience on the backend using **.NET and C#**. I enjoy working across the stack when 
+  experience on the backend using **.NET and Node.js**. I enjoy working across the stack when 
   needed, which allows me to better understand the full picture and build more robust 
   solutions.
 
