@@ -8,7 +8,7 @@ export const socialLinks: Social[] = [
     name: "linkedin",
   },
   { link: "mailto:bogdandjordjevic2000@gmail.com", name: "mail" },
-  { link: "/Bogdan-Djordjevic-CV.pdf", name: "resume" },
+  { link: "/Bogdan_Djordjevic_CV.pdf", name: "resume" },
 ];
 
 export const allJobs: Job[] = [
