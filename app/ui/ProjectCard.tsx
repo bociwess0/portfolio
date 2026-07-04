@@ -15,7 +15,7 @@ export default function ProjectCard({ project }: { project: Project }) {
     hover:-translate-y-1
     
     border border-transparent
-    hover:border-slate-700/50"
+    hover:border-[#294C73]/50"
       target="_blank"
     >
       <div className="flex-[0_0_25%] mt-1">
