@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 
 export default function useActiveSection() {
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState("about");
 
   useEffect(() => {
-    const sections = document.querySelectorAll("section");
+    const sections = document.querySelectorAll("section[id]");
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -17,8 +17,9 @@ export default function useActiveSection() {
         });
       },
       {
-        threshold: 0.6,
-      }
+        threshold: 0,
+        rootMargin: "-20% 0px -70% 0px",
+      },
     );
 
     sections.forEach((section) => observer.observe(section));
