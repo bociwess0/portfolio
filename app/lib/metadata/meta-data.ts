@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 
 export const siteMetadata: Metadata = {
+  metadataBase: new URL("https://bogdandjordjevic.com"),
+
   title: "Bogdan Djordjevic | Frontend Developer",
   description:
     "Frontend developer specializing in scalable, high-performance web applications using Next.js, TypeScript, and modern technologies.",
@@ -9,7 +11,7 @@ export const siteMetadata: Metadata = {
     title: "Bogdan Djordjevic Portfolio",
     description:
       "Building scalable, full-stack web applications with focus on performance and user experience.",
-    url: "https://bogdan-djordjevic-portfolio.vercel.app/",
+    url: "https://bogdandjordjevic.com",
     siteName: "Bogdan Portfolio",
     images: [
       {
@@ -21,5 +23,22 @@ export const siteMetadata: Metadata = {
     ],
     locale: "en_US",
     type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Bogdan Djordjevic Portfolio",
+    description:
+      "Building scalable, full-stack web applications with focus on performance and user experience.",
+    images: ["/og-image.png"],
+  },
+
+  icons: {
+    icon: [
+      { url: "/bdj_logo.png", sizes: "32x32", type: "image/png" },
+      { url: "/bdj_logo.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: "/bdj_logo.png",
+    shortcut: "/bdj_logo.png",
   },
 };
